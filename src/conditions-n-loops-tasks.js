@@ -263,7 +263,7 @@ function getIndexOf(str, letter) {
  *  12345, 6    => false
  */
 function isContainNumber(num, digit) {
-  let number = Math.abs(num);
+  let number = num;
   while (number > 0) {
     if (number % 10 === digit) {
       return true;
